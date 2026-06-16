@@ -1,1 +1,1 @@
-# open_academy_rust
+# Santander Open Academy - Rust

@@ -1,3 +1,4 @@
+mod operadores;
 mod primeiro;
 mod variaveis;
 
@@ -24,6 +25,10 @@ pub fn executar() {
             2 => variaveis::imutaveis(),
             3 => variaveis::mutaveis(),
             4 => variaveis::constantes(),
+            5 => variaveis::shadowing(),
+            6 => operadores::aritmeticos(),
+            7 => operadores::relacionais(),
+            8 => operadores::logicos(),
             _ => break,
         }
         esperar_enter();
